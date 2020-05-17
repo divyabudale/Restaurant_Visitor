@@ -1,4 +1,4 @@
-# Restuarant_Visitor
+# Restaurant_Visitor
 
 In this competition, you are provided a time-series forecasting problem centered around restaurant visitors. The data comes from two separate sites:
 
