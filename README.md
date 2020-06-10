@@ -32,7 +32,7 @@ This file contains historical visit data for the air restaurants.
 date_info.csv
 This file gives basic information about the calendar dates in the dataset.
 
-The dataset showed seasonlity on days of week. The seasonality was removed by using trends. Features were created by merging different datasets, geographical coordinates were used to create additional features, haversine distance was computed, Kmeans was used to cluster the areas, mean encoding was used to convert the store id
+The dataset showed seasonality on days of week. The seasonality was removed by using lags. Features were created by merging different datasets, geographical coordinates were used to create additional features, haversine distance was computed, Kmeans was used to cluster the areas, mean encoding was used to convert the store id
 
 Models : Once the data preprocessing was completed, train and validation set was created each having six month period. Linear regression, Lasso regression, Light GBM, XGBoost, Gradient Boosting, KNeighbours algorith was used to create the forecasting models. Stacking and Blending of different model was also performed. 
 
